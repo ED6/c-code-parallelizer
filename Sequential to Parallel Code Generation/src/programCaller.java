@@ -25,9 +25,9 @@ public class programCaller {
     //parameters for downloading file
     private static ArrayList<String> outputFileNames = new ArrayList<>(); //storing names of files in output.txt directory
 
-    private static HashMap<Integer, ArrayList<String>> SecVars =       //HashMap SecNumber:Variables in that section (FROM ARTUR)
+    private static HashMap<Integer, ArrayList<String>> SecVars =       //HashMap SecNumber:Variables in that section
             new HashMap<>();
-    private static ArrayList<ArrayList<Integer>> ExecutionTable =      //Table with section execution order (FROM MIKE)
+    private static ArrayList<ArrayList<Integer>> ExecutionTable =      //Table with section execution order
             new ArrayList<>();
     static ArrayList<String> PreCode;
     static ArrayList<String> PostCode;
@@ -151,8 +151,6 @@ public class programCaller {
         System.out.println("The cloud part took " + elapsedTime / 1000.0 + " seconds to complete.");
         System.out.println("Cloud part has finished.");
 
-        /** Calling Mike's part here */
-
         /***********************************/
         /** End cloud here*/
 
@@ -161,17 +159,6 @@ public class programCaller {
         AccessibilityChecker aChecker = new AccessibilityChecker();
         ExecutionTable = aChecker.getExecutionTable();
 
-        //This is, again, from Mike (after thread distribution)
-//        /**Populate ExecutionTable (testing)*/
-//        ArrayList<Integer> first = new ArrayList<>();
-//        first.add(1);
-//        first.add(2);
-//        ArrayList<Integer> second = new ArrayList<>();
-//        second.add(3);
-//        second.add(4);
-////        third.add(4); third.add(6); third.add(7); third.add(8);
-//        ExecutionTable.add(first);
-//        ExecutionTable.add(second); //ExecutionTable.add(third); ExecutionTable.add(fourth);
         System.out.println("Execution table: " + ExecutionTable);
 
         /*GENERATE THE CODE*/
