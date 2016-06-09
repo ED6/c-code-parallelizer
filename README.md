@@ -1,5 +1,5 @@
 # c-code-parallelizer
-A bachelor project by the group ED6-1-F16 (Aalborg University, Esbjerg, Denmark) concerned with C code parallelization
+A bachelor project by the group ED6-1-F16 (Aalborg University, Esbjerg, Denmark) aimed at automatic C code parallelization
 
 **Written by:**
 + Aleksandrs Levi
