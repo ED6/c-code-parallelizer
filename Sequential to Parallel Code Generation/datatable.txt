@@ -1,0 +1,6 @@
+0:RESERVED
+1:$n_r
+3:$i_w $n_r $arr_w
+4:$arr_r
+5:$c_w $n_r $next_w $first_w $second_w
+6:$first_r $second_r
