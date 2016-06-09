@@ -1,6 +1,3 @@
-/**
- * Created by eon on 5/4/16.
- */
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.*;
