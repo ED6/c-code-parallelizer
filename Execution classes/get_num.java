@@ -3,7 +3,6 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 /**
- * Created by Mike on 17-03-2016.
  * class to test char types unicode
  */
 public class get_num {
