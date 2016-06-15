@@ -12,4 +12,4 @@ The application running on the Google Cloud Dataproc cluster is located in "Clou
 
 The libraries used to connect to Google Cloud are located in "Libraries" directory.
 
-The classes used to test the application are located in "Execution classes" directory.
+The classes used to test the application (performance testing) are located in "Execution classes" directory.
